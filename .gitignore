@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Yarn2 binaries
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
